@@ -11,7 +11,7 @@ int main() {
     if(income<250000){
         tax = 0;
     }
-    else if(income>250000 && income<500000){
+    else if(income>250000 && income<50000){
         tax = 0.05 * (income - 250000);
     }
     else if(income>50000 && income<100000){
