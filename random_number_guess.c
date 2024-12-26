@@ -27,6 +27,6 @@ int main() {
         
     }while(userGuess != randomNumber);
     
-    printf("You guesses the number in %d chances",no_of_guesses);
+    printf("You guessed the number in %d chances",no_of_guesses);
     return 0;
 }
