@@ -12,14 +12,14 @@ int sum(int x, int y){
 int main() {
     int a = 21;
     int b = 12;
-    sum(a,b);
+    sum(a,b); //function call
     
     int a1 = 45;
     int b1 = 54;
-    sum(a1,b1);
+    sum(a1,b1); //function call
     
     int a2 = 78;
     int b2 = 82;
-    sum(a2,b2);
+    sum(a2,b2); //function call
     return 0;
 }
