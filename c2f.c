@@ -6,6 +6,6 @@ float c2f(float c){
 }
 int main() {
     float c = 2;
-    printf("Celsius to Fahrenheit for %f is %d", c2f(c));
+    printf("Celsius to Fahrenheit for %f is %d",c, c2f(c));
     return 0;
 }
