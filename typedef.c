@@ -10,8 +10,10 @@ int main()
     stud s1;
     printf("Enter details of student~ \n");
     printf("Enter Student's Name: \n");
-    scanf("%s",s1.name);
+    scanf("%s",&s1.name);
     printf("Enter Student's Unique ID: \n");
-    scanf("%s",s1.ID);
+    scanf("%d",&s1.ID);
+    printf("Student's Name: %s\n",s1.name);
+    printf("Student's ID: %d",s1.ID);
     return 0;
 }
